@@ -27,6 +27,7 @@ npm install
 ```
 ## Edit data.txt lalu paste `query_id` atau `user` kalian
 ## Save `CTRL+x-y` lalu (enter)
+jika tidak menggunakan proxy biarkan saja `proxy.txt` kosong
 ```
 nano data.txt
 ```

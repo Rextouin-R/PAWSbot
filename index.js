@@ -41,6 +41,11 @@ class PawsGameBot {
             this.log("┃ ┗━┛ ┃ ┃ ┏━┓ ┃ ┃ ┃ ┃ ┃ ┃ ┏━┓ ┏━┓ ┃ ┃ ┃ ┃ ┗━━┓ ┃ ┏━━┛ ┃ ━━ ┃", colors.white);
             this.log("┗━━━ ━┛ ┗━┛ ┗━┛ ┗━┛ ┗━┛ ┗━┛ ┗━┛ ┗━┛ ┗━┛ ┗━━━━┛ ┗━━━━┛ ╰━━━━┛", colors.white);
             this.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━", colors.white);
+            this.log("==> 🟦 join channel : https://t.me/UNLXairdop", colors.blue);
+            this.log("==> 🟦 join chat : https://t.me/+aXm5TBeS-QMyMGZl", colors.blue);
+            this.log("==========================================≠===============", colors.white);
+            this.log("==> ⬛ github : https://github.com/Rextouin-R", colors.lightblue);
+            this.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━", colors.white);
             this.log("Bot initialized successfully", colors.green);
         } catch (error) {
             this.log(`Error initializing bot: ${error.message}`, colors.red);

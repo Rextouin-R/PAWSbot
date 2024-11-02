@@ -3,8 +3,6 @@ import axios from "axios";
 import { promises as fs } from "fs";
 import { HttpsProxyAgent } from "https-proxy-agent";
 
-const printBanner = require("./config/banner");
-
 const colors = {
     red: "\x1b[31m",
     green: "\x1b[32m",
@@ -223,12 +221,5 @@ class PawsGameBot {
     }
 }
 
-printBanner();
 const bot = new PawsGameBot();
 bot.start();
-bot.main().catch((err) => {
-  logger.error(err.message);
-  process.exit(1);
-});
-
-

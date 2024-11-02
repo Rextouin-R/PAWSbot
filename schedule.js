@@ -1,4 +1,5 @@
 function scheduleNextRun(defaultDelayInHours = 2, functionToRun) {
+    const printBanner = require("./config/banner");
     const randomDelay = getRandomNumber(600000, 2400000);
     const totalDelay = defaultDelayInHours * 60 * 60 * 1000 + randomDelay;
     const startTime = Date.now();

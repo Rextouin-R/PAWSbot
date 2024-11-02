@@ -223,12 +223,12 @@ class PawsGameBot {
     }
 }
 
-const bot = new PawsGameBot();
-bot.start();
-
 printBanner();
 const bot = new PawsGameBot();
+bot.start();
 bot.main().catch((err) => {
   logger.error(err.message);
   process.exit(1);
 });
+
+

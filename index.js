@@ -222,8 +222,4 @@ class PawsGameBot {
 }
 
 const bot = new PawsGameBot();
-bot.index();printBanner();
-bot.index().catch((err) => {
-  logger.error(err.message);
-  process.exit(1);
-});
+bot.start();

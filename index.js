@@ -36,7 +36,8 @@ class PawsGameBot {
             this.data = dataContent.split("\n").filter((line) => line.trim());
             this.proxies = proxyContent.split("\n").filter((line) => line.trim());
 
-            this.log("airdrop-unlimited", colors.green);
+            this.log("??? ? ??? ??? ??? ??? ??? ?", colors.white);
+            this.log("airdrop-unlimited", colors.white);
             this.log("Bot initialized successfully", colors.green);
         } catch (error) {
             this.log(`Error initializing bot: ${error.message}`, colors.red);
